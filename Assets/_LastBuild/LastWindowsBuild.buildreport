@@ -1,0 +1,406 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!668709126 &-6403918026873476077
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-gutenberg demo.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: Project Gutenberg
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!382020655 &-3241074072117719994
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.Burst.Unsafe
+  - VRC.SDK3.Dynamics.PhysBone
+  - OVRPlugin
+  - YamlDotNet
+  - WatsonTcp
+  - System.Threading.Tasks.Extensions
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - Serilog
+  - nunit.framework
+  - SemanticVersioning
+  - librsync.net
+  - VRC.Udon.Common
+  - VRC.SDK3.Dynamics.Contact
+  - Collections.Pooled
+  - Microsoft.VisualBasic
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Dynamics
+  - VRC.Udon.Wrapper
+  - Serilog.Sinks.File
+  - VRC.Udon.Security
+  - clipper_library
+  - VRC.Collections
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - vrc_image_loader
+  - libvrc_image_loader
+  - Newtonsoft.Json
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - System.Text.Encoding.CodePages
+  - VRCCore-Editor
+  - VRC.Utility
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.UAssembly
+  - vpm-core-lib
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - 0Harmony
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - VRCSDKBase-Editor
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - Serilog.Sinks.Unity3D
+  - lz4x64Plastic
+--- !u!641289076 &-2534267696583513807
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638156483409261018
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/raphr/AppData/Local/Temp/DefaultCompany/Project Gutenberg/scene-standalonewindows64-gutenberg
+      demo.vrcw
+    crc: 125033072
+    totalSize: 7760365
+    totalTimeTicks: 446239076
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: V:/documents/Unity/Project Gutenberg/scene-standalonewindows64-gutenberg
+      demo.vrcw/BuildPlayer-Gutenberg Demo
+    role: Scene
+    id: 0
+    totalSize: 72994964
+  - path: V:/documents/Unity/Project Gutenberg/scene-standalonewindows64-gutenberg
+      demo.vrcw/BuildPlayer-Gutenberg Demo.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 16323408
+  - path: V:/documents/Unity/Project Gutenberg/scene-standalonewindows64-gutenberg
+      demo.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 7757010
+  - path: V:/documents/Unity/Project Gutenberg/scene-standalonewindows64-gutenberg
+      demo.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 2123
+  - path: V:/documents/Unity/Project Gutenberg/Project Gutenberg/CAB-3a775478314b97c308ed1687a2dc1880
+    role: ResourcesFile
+    id: 4
+    totalSize: 4316
+  - path: V:/documents/Unity/Project Gutenberg/Project Gutenberg
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1059
+  - path: V:/documents/Unity/Project Gutenberg/Project Gutenberg.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 173
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 446239076
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 1394270
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 56154828
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 310127903
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2000404
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 86426287
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/MyNamesRaph/Gutenberg/Scenes/Gutenberg Demo.unity
+    durationTicks: 86411369
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 14366361
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-Gutenberg Demo/BuildPlayer-Gutenberg
+      Demo.sharedAssets
+    durationTicks: 14329980
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 141661431
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 498564
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -6403918026873476077}
+  - {fileID: 3513437953506209023}
+  - {fileID: -3241074072117719994}
+  - {fileID: -2534267696583513807}
+  - {fileID: 9092428324176786556}
+--- !u!1126 &3513437953506209023
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-Gutenberg Demo.sharedAssets
+  m_Overhead: 73369
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 49
+    offset: 74376
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 188
+    offset: 74432
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1052
+    offset: 74624
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 4
+    classID: 21
+    packedSize: 252
+    offset: 75680
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 5
+    classID: 21
+    packedSize: 136
+    offset: 75936
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 6
+    classID: 21
+    packedSize: 2004
+    offset: 76072
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 7
+    classID: 21
+    packedSize: 944
+    offset: 78080
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 8
+    classID: 28
+    packedSize: 108
+    offset: 79024
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 9
+    classID: 28
+    packedSize: 262264
+    offset: 79136
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 10
+    classID: 28
+    packedSize: 1048696
+    offset: 341400
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 11
+    classID: 48
+    packedSize: 23380
+    offset: 1390096
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 12
+    classID: 48
+    packedSize: 165480
+    offset: 1413480
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 13
+    classID: 48
+    packedSize: 13452
+    offset: 1578960
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 14
+    classID: 48
+    packedSize: 19276
+    offset: 1592416
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 15
+    classID: 49
+    packedSize: 14287044
+    offset: 1611696
+    sourceAssetGUID: 25b337e5a88cac74ebab534ab2c803fc
+    buildTimeAssetPath: Assets/MyNamesRaph/Gutenberg/Data/pg_catalog.csv
+  - fileID: 16
+    classID: 115
+    packedSize: 96
+    offset: 73312
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 17
+    classID: 115
+    packedSize: 108
+    offset: 73408
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 18
+    classID: 115
+    packedSize: 96
+    offset: 73520
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 19
+    classID: 115
+    packedSize: 88
+    offset: 73616
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 20
+    classID: 115
+    packedSize: 128
+    offset: 73704
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 21
+    classID: 115
+    packedSize: 100
+    offset: 73832
+    sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - fileID: 22
+    classID: 115
+    packedSize: 104
+    offset: 73936
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 23
+    classID: 115
+    packedSize: 128
+    offset: 74040
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 24
+    classID: 115
+    packedSize: 104
+    offset: 74168
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 25
+    classID: 115
+    packedSize: 100
+    offset: 74272
+    sourceAssetGUID: f4688fdb7df04437aeb418b961361dc5
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+  - fileID: 26
+    classID: 128
+    packedSize: 352462
+    offset: 15898744
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 27
+    classID: 114
+    packedSize: 26336
+    offset: 16251208
+    sourceAssetGUID: 4782e256614e17f4a971975a1287f89c
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/a0fc969580ac909498999a612f5255d1.asset
+  - fileID: 28
+    classID: 114
+    packedSize: 16760
+    offset: 16277544
+    sourceAssetGUID: a695a08000b748c4fbe548d1c2e07b80
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/fed418ee796b2ef4d850e61ad507d666.asset
+  - fileID: 29
+    classID: 114
+    packedSize: 1344
+    offset: 16294304
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 30
+    classID: 114
+    packedSize: 27760
+    offset: 16295648
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+--- !u!1126 &9092428324176786556
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-3a775478314b97c308ed1687a2dc1880
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 116
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
